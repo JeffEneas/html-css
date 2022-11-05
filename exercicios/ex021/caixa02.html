@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(87, 87, 87);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > p > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 0 7vw;
+            margin: 0 auto;
+        }
+
+        nav > p {
+            text-align: center;
+        }
+
+        nav > p > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: lightgrey;
+        }
+
+        article > aside {
+            background-color: rgb(139, 137, 137);
+            text-align: center;
+            padding-bottom: 1vh;
+        }
+
+        article:last-of-type {
+            text-align: center;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            margin: 0;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin: 0;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <p>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <section>
+            Esportes Políticas e Tecnologia
+        </section>
+        <section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dicta ullam voluptas reprehenderit, corrupti commodi, praesentium, ratione dolores autem pariatur excepturi eos molestiae voluptatem fugit illo neque ut. Voluptates, temporibus.</p>
+                <aside >
+                    <p class="art">Artigo escreito por Jefferson</p>
+                </aside>
+            </article>
+            <article>
+                <p>todos os direitos reservados &copy;</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido pelo Jefferson
+    </footer>
+</body>
+</html>
